@@ -1,0 +1,30 @@
+/***************************
+Media Modules
+***************************/
+.media, .media-body {
+  overflow:hidden;
+}
+.media-item {
+  float:left;
+  margin-right: 10px;
+}
+.media-item i {
+  color: #594a42;
+  font-size: 5em;
+}
+.media-item img {
+  display:block;
+}
+.featured-image {
+  border-top: 4px solid $featured;
+}
+.featured-image .tag {
+  position: absolute; 
+  top: 0; 
+  left : 0; 
+  padding: 10px 35px; 
+  height: 50px;
+  line-height: 30px;
+  background: $featured;
+  z-index: 100;
+}
